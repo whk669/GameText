@@ -1,0 +1,28 @@
+uTween for UGUI
+
+Thanks for downloading uTween we hope you enjoy using it!
+
+A demo scene is included that shows how to use most features
+If you need additional support please contact us at the address below
+If you would like to see any features added please get in touch
+
+Support Email: flamesky@live.com
+
+------------------------------------------------------------------------------------------------------------------------
+Basics - all functions listed below have detailed comments in the code
+
+***All the functions below except the serialisation functions will only work once you build a windows store solution - however they are safe to use in the editor***
+
+------You can add the component at "Component-uTools/" to find
+
+- uButtonScale:		Scale the button you want
+- uSliderColor:		Change the slider color
+- uTweenAlpha:		Change the Alpha of the image
+- uTweener:			Base of the Tween
+- uTweenPath:		Moving the path by kind of path
+- uTweenPosition:	Moving the target to the destination
+- uTweenRotation:	Rotating the target
+- uTweenScale:		Scaling the target
+- uTweenSlider:		Slidering the target
+- uTweenText:		Time Counter by UGUI Text
+- uTweenValue:		Tween the Value
