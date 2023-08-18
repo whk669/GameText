@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFXUI_2D_BaseKAnim 1
+  m_Shader: {fileID: 4800000, guid: b50e2649ad327024f85d423edcd5b107, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3006
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisturbanceTex001:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbanceTex002:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex001:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex002:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex001:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex002:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Blend: 0
+    - _BlendA_Dst: 0
+    - _BlendA_Src: 0
+    - _BlendONA: 0
+    - _BlendONRGB: 0
+    - _BlendRGB_Dst1: 10
+    - _BlendRGB_Src1: 5
+    - _ColorMask: 15
+    - _Disturbance001: 0
+    - _Disturbance002: 0
+    - _Main: 0
+    - _MaskTex001_Add: 0
+    - _MaskTex001_LerPRorA: 1
+    - _MaskTex001_OffsetU: 0
+    - _MaskTex001_OffsetV: 0
+    - _MaskTex002_Add: 0
+    - _MaskTex002_LerPRorA: 1
+    - _MaskTex002_OffsetU: 0
+    - _MaskTex002_OffsetV: 0
+    - _MaskTex_001: 0
+    - _MaskTex_002: 0
+    - _NoiseTex001_LerPRorA: 1
+    - _NoiseTex002_LerPRorA: 1
+    - _Noise_001: 0
+    - _Noise_002: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Total_Int: 1
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DisturbanceTex001_PannerSpeed: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbanceTex001_PowerMul: {r: 1, g: 0, b: 0, a: 0}
+    - _DisturbanceTex001_RotationSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DisturbanceTex001_TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _DisturbanceTex002_PannerSpeed: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbanceTex002_PowerMul: {r: 1, g: 0, b: 0, a: 0}
+    - _DisturbanceTex002_RotationSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _DisturbanceTex002_TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTex_PowerInt: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTex001_PannerSpeed: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTex001_PowerMul: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTex001_RotationSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskTex001_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTex002_PannerSpeed: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTex002_PowerMul: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTex002_RotationSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskTex002_Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTex001_PowerMul: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTex001_TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTex002_PowerMul: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTex002_TilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTex_001PannerSpeed: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseTex_002PannerSpeed: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

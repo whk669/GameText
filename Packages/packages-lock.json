@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.esotericsoftware.spine.timeline": {
+      "version": "file:../Assets/Spine/com.esotericsoftware.spine.timeline-4.2",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.timeline": "1.2.10"
+      }
+    },
+    "com.esotericsoftware.spine.urp-shaders": {
+      "version": "file:../Assets/Spine/com.esotericsoftware.spine.urp-shaders-4.2-2019.1",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "7.1.5"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "7.0.11",
       "depth": 1,
@@ -86,8 +102,8 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.burst": {
-      "version": "1.6.6",
-      "depth": 3,
+      "version": "1.8.4",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
@@ -182,12 +198,49 @@
       "dependencies": {},
       "url": "https://packages.unity.cn"
     },
+    "com.unity.render-pipelines.core": {
+      "version": "12.1.12",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.render-pipelines.universal": {
+      "version": "12.1.12",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.burst": "1.8.4",
+        "com.unity.render-pipelines.core": "12.1.12",
+        "com.unity.shadergraph": "12.1.12"
+      }
+    },
+    "com.unity.searcher": {
+      "version": "4.9.1",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
     "com.unity.settings-manager": {
       "version": "1.0.3",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.cn"
+    },
+    "com.unity.shadergraph": {
+      "version": "12.1.12",
+      "depth": 2,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "12.1.12",
+        "com.unity.searcher": "4.9.1"
+      }
     },
     "com.unity.sysroot": {
       "version": "2.0.7",

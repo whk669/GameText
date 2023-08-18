@@ -1,0 +1,1 @@
+Package version: com.esotericsoftware.spine.timeline-4.2-2023-08-04-beta.zip
